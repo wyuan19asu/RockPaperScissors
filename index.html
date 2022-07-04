@@ -5,14 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="icon" href="./images/scissors.png" type="image/x-icon">
+    <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
-    <script src="cpu.js">
-        // Your JavaScript goes here!
-        console.log("Hello, World!")
-    </script>
+    <div class="main">
+        <h2 class="heading">Welcome to Rock, Paper, Scissors</h2>
+        <div class="container">
+            <div class="mainScreen">
+                
+            </div>
+            <div class="containerFlex">
+                <div class="container-img">
+                    <img src="./images/Rock.png" alt="rock icon image">
+                    <div class="imgText">Rock</div>
+                </div>
+                <div class="container-img">
+                    <img src="./images/Paper.png" alt="paper icon image">
+                    <div class="imgText">Paper</div>
+                </div>
+                <div class="container-img">
+                    <img src="./images/Scissors.png" alt="scissors icon image">
+                    <div class="imgText">Scissors</div>
+                </div>
+            </div>
+            <div class="scores">
+                <div class="userScore">User Score: </div>
+                <div class="userScore">0</div>
+                <div class="cpuScore">CPU Score: </div>
+                <div class="cpuScore">0</div>
+            </div>
+        </div>
+    </div>
+    <div class="results"></div>
+    <script src="app.js"></script>
+
 </body>
 
 </html>

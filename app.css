@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+}
+
+.containerFlex{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.container-img{
+    text-align: center;
+}
+
+.imgText{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.scores{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
