@@ -14,34 +14,53 @@
     <div class="main">
         <h2 class="heading">Welcome to Rock, Paper, Scissors</h2>
         <div class="container">
-            <div class="mainScreen">
-                
+            <div class="mainScreenContainer">
+                <div class="mainScreen">
+                    <h2 class="subheading">Player </h2>
+                    <div class="player-select">
+
+                    </div>
+                </div>
+                <div class="mainScreen">
+                    <h2 class="subheading">CPU </h2>
+                    <div class="subheading">
+                        <div class="computer-select">
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="containerFlex">
-                <div class="container-img">
-                    <img src="./images/Rock.png" alt="rock icon image">
+
+            <div class="imgContFlex">
+                <div class="imgBox">
+                    <div class="boxImg" data-image="rock">
+                        <img src="./images/Rock.png" alt="rock icon image" class="image">
+                    </div>
                     <div class="imgText">Rock</div>
                 </div>
-                <div class="container-img">
-                    <img src="./images/Paper.png" alt="paper icon image">
+                <div class="imgBox">
+                    <div class="boxImg" data-image="paper">
+                        <img src="./images/paper.png" alt="paper icon image" class="image">
+                    </div>
                     <div class="imgText">Paper</div>
                 </div>
-                <div class="container-img">
-                    <img src="./images/Scissors.png" alt="scissors icon image">
+                <div class="imgBox">
+                    <div class="boxImg" data-image="scissors">
+                        <img src="./images/scissors.png" alt="scissors icon image" class="image">
+                    </div>
                     <div class="imgText">Scissors</div>
                 </div>
             </div>
             <div class="scores">
-                <div class="userScore">User Score: </div>
+                <div>User Score: </div>
                 <div class="userScore">0</div>
-                <div class="cpuScore">CPU Score: </div>
+                <div>CPU Score: </div>
                 <div class="cpuScore">0</div>
             </div>
         </div>
     </div>
-    <div class="results"></div>
+    </div>
     <script src="app.js"></script>
-
 </body>
 
 </html>
