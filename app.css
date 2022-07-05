@@ -1,26 +1,39 @@
+
+
 .heading {
     text-align: center;
 }
 
 .imgContFlex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 40px;
 }
 
-.imgBox {
-    text-align: center;
+.chooseOption{
+    display: flex;
+    justify-content: space-around;
+    font-size:30px;
+}
 
+.imgBox {
+    text-align:center;
 }
 
 .boxImg {
-    margin-bottom: 10px;
     cursor: pointer;
 }
 
-.boxImg:hover {
-    margin-top: -10px;
+.boxImg *{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 
+}
+
+.boxImg:hover {
+    margin-top: -20px;
 }
 
 .imgText {
@@ -32,13 +45,34 @@
     margin-right: 15px;
 }
 .scores {
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 30px;
 }
 
-.mainScreenContainer{
-    display:flex;
+.last{
+    font-size: 20px;
+    text-align: center;
 }
+
+.resetBtnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.resetBtn{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    height:50px;
+    width: 150px;
+    color:crimson;
+    border-radius: 5px;
+    border-color:darksalmon;
+}
+
+/* .mainScreenContainer{
+    display:flex;
+} */
