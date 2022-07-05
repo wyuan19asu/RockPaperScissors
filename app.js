@@ -12,7 +12,7 @@ let computerScore = 0;
 // Allows clicking on image
 imgs.forEach((image) =>
     image.addEventListener('click', () => {
-        if (playerScore >= 2 || computerScore >= 2) {
+        if (playerScore >= 5 || computerScore >= 5) {
             return;
         }
         game(image.dataset.image);
